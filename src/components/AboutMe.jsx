@@ -1,35 +1,41 @@
+// entirety of aboutmy page content; all content is compiled here
+
 import React from "react";
-import RightColumn from "./RightColumn.jsx"
-import rightC from "../rightC.js"
+import Description from "./Description.jsx";
+import descriptionContent from "./descriptionContent.js";
 import TableOfContent from "./TableOfContent.jsx";
-var about_me_nav = ["Basic Information", "Fun Facts", "Goals"]
+
+var about_me_nav = ["Basic Information", "Fun Facts", "Goals"] // array for about_me_nav content
+
 function AboutMe() {
     return (
         <div className='horizontal-page'>
-            {/* This part is what actuallys in the about me */}
+            {/* This part is what actually is in the about me */}
 
-            <TableOfContent content={about_me_nav} id='about-me'/>
+            <TableOfContent content={about_me_nav} id='about-me'/> {/* uses the array listed above to spit out content */}
 
             <body className="ColContainer">
 
-                <RightColumn info={rightC[0].first}></RightColumn>
-                <RightColumn info={rightC[0].second}></RightColumn>
-                <RightColumn info={rightC[0].third}></RightColumn>
-                <RightColumn info={rightC[0].fourth}></RightColumn>
-                <RightColumn info={rightC[0].fifth}></RightColumn>
+                <Description content={descriptionContent["about-me-content"].basicInfo}></Description>
+                <Description content={descriptionContent["about-me-content"].funFacts}></Description>
+                <Description content={descriptionContent["about-me-content"].goals}></Description>
+                {/* <Descriptioniption info={descriptionContent[0].second}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[0].third}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[0].fourth}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[0].fifth}></Descriptioniption>
 
 
-                <RightColumn info={rightC[1].first}></RightColumn>
-                <RightColumn info={rightC[1].second}></RightColumn>
-                <RightColumn info={rightC[1].third}></RightColumn>
-                <RightColumn info={rightC[1].fourth}></RightColumn>
-                <RightColumn info={rightC[1].fifth}></RightColumn>
-                <RightColumn info={rightC[1].sixth}></RightColumn>
+                <Descriptioniption info={descriptionContent[1].first}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[1].second}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[1].third}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[1].fourth}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[1].fifth}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[1].sixth}></Descriptioniption>
 
 
-                <RightColumn info={rightC[2].first}></RightColumn>
-                <RightColumn info={rightC[2].second}></RightColumn>
-                <RightColumn info={rightC[2].third}></RightColumn>
+                <Descriptioniption info={descriptionContent[2].first}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[2].second}></Descriptioniption>
+                <Descriptioniption info={descriptionContent[2].third}></Descriptioniption> */}
             </body>
         </div>
     );

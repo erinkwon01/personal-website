@@ -1,0 +1,11 @@
+/* CLASS SELECTORS */
+
+.table-of-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.table-of-content-item{
+    font-size: larger;
+}

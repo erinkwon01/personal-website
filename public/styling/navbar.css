@@ -1,0 +1,30 @@
+/* ID SELECTORS */
+
+#nav-bar {
+    font-family: 'League Script', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: #2d3436;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+/* CLASS SELECTORS */
+
+.navbar-btn {
+    font-family: 'League Script', cursive;
+    font-family: 'League Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #2d3436;
+    border: none;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    background-color: Transparent;
+}
