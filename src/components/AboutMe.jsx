@@ -8,13 +8,14 @@ import TableOfContent from "./TableOfContent.jsx";
 var about_me_nav = ["Basic Information", "Fun Facts", "Goals"] // array for about_me_nav content
 
 function AboutMe() {
+
     return (
         <div className='horizontal-page'>
             {/* This part is what actually is in the about me */}
 
             <TableOfContent content={about_me_nav} id='about-me'/> {/* uses the array listed above to spit out content */}
 
-            <body className="ColContainer">
+            <div className="ColContainer">
 
                 <Description content={descriptionContent["about-me-content"].basicInfo}></Description>
                 <Description content={descriptionContent["about-me-content"].funFacts}></Description>
@@ -36,7 +37,7 @@ function AboutMe() {
                 <Descriptioniption info={descriptionContent[2].first}></Descriptioniption>
                 <Descriptioniption info={descriptionContent[2].second}></Descriptioniption>
                 <Descriptioniption info={descriptionContent[2].third}></Descriptioniption> */}
-            </body>
+            </div>
         </div>
     );
 }

@@ -19,3 +19,8 @@ body {
     gap: 10px;
 }
 
+#root{
+
+    height: 99vh;
+    box-sizing: border-box;
+}

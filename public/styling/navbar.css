@@ -27,4 +27,9 @@
     align-items: center;
     gap: 10px;
     background-color: Transparent;
+
+}
+
+.navbar-btn:hover{
+    cursor: pointer;
 }

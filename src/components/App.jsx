@@ -6,7 +6,7 @@ import NavBar from "./NavBar.jsx";
 
 function App() {
     return (
-        <div style={{height: '100vh'}}> {/* formatting the whole page to be filled */}
+        <div id="app"> {/* formatting the whole page to be filled */}
             <NavBar/>
             <AboutMe/>
         </div>
