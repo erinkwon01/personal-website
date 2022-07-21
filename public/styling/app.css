@@ -1,0 +1,10 @@
+#root{
+
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

@@ -2,12 +2,11 @@
 
 import React from "react";
 
-
-
 function NavBarButton(props){
-
     function clickMe(){
-        console.log("clicked")
+        return(
+            console.log("clicked")
+        );
     }
 
     return(
@@ -19,3 +18,4 @@ function NavBarButton(props){
 };
 
 export default NavBarButton;
+
