@@ -3,17 +3,12 @@
 import React from "react";
 
 function NavBarButton(props){
-    function clickMe(){
-        return(
-            console.log("clicked")
-        );
-    }
-
     return(
-        <button className="navbar-btn" onClick={clickMe}> {/* assigns CSS and type of button (contained) */}
-            {props.buttonName}
-        </button>
-
+        <mark>
+            <button className="navbar-btn"> {/* assigns CSS and type of button (contained) */}
+                {props.buttonName}
+            </button>
+        </mark>
     );
 };
 

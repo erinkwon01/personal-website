@@ -5,14 +5,13 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 /* CLASS SELECTORS */
 
 .navbar-btn {
-    font-family: 'League Script', cursive;
     font-family: 'League Script', cursive;
     text-align: center;
     font-size: 45px;
@@ -20,9 +19,31 @@
     color: #2d3436;
     border: none;
     background-color: Transparent;
-
 }
 
-.navbar-btn:hover{
+.navbar-btn:hover {
     cursor: pointer;
+    background-color: #ffff7e;
 }
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #ffff7e 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+

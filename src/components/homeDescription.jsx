@@ -1,16 +1,14 @@
 import React from 'react';
 
-function Description (props) {
+function homeDescription (props) {
 
     return (
-        <div>
+        <div className = "homeDescription">
             {props.content.map((value, index) => {return (
                 <div className="content-row" key={index}>
                     <div class="title-col">{value.title}</div>
                     <div class="content-col">
-                        <ul>
-                            {value.content.map(info => {return (<li>{info}</li>)})}
-                        </ul>
+                        {value.content.map(info => {return (<li>{info}</li>)})}
                     </div>
                 </div>
             );})}
@@ -18,4 +16,4 @@ function Description (props) {
     );
 };
 
-export default Description;
+export default homeDescription;

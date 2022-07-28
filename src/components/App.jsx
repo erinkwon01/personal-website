@@ -2,11 +2,11 @@
 
 import React from "react";
 import NavBar from "./NavBar.jsx";
-import Home from "./Home.jsx";
-import AboutMe from "./AboutMe.jsx";
-import Resume from "./Resume.jsx";
-import Projects from "./Projects.jsx";
-import Contact from "./Contact.jsx";
+import Home from "./pages/Home.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
+import Resume from "./pages/Resume.jsx";
+import Projects from "./pages/Projects.jsx";
+import Contact from "./pages/Contact.jsx";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
