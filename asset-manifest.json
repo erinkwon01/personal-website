@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/personal-website/static/js/main.ce39f254.js",
+    "static/media/erinProfilePicture.jpg": "/personal-website/static/media/erinProfilePicture.968a4916de0447b06272.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.ce39f254.js.map": "/personal-website/static/js/main.ce39f254.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ce39f254.js"
+  ]
+}

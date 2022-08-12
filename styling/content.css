@@ -1,0 +1,35 @@
+a {
+    color: rgb(88, 86, 86);
+}
+
+/* CLASS SELECTORS */
+
+.content-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.title-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    justify-content: flex-start;
+    font-family: 'Mali', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.content-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: flex-start;
+    font-size: 23px;
+    margin-right: 50px;
+}
