@@ -5,15 +5,17 @@ function Home() {
 
     return (
         <div className="home">
-            <table cellspacing="20">
-                <tr>
-                    <td><img src={erinPic} width="230" height="300" alt="Erin Profile" /></td>
-                    <td>
-                        <h2>my name is</h2>
-                        <h1 id="name">erin kwon</h1>
-                        <p>welcome to my website &#9999;</p>
-                    </td>
-                </tr>
+            <table cellSpacing="20">
+                <tbody>
+                    <tr>
+                        <td><img src={erinPic} width="230" height="300" alt="Erin Profile" /></td>
+                        <td>
+                            <h2>my name is</h2>
+                            <h1 id="name">erin kwon</h1>
+                            <p>welcome to my website &#9999;</p>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     );

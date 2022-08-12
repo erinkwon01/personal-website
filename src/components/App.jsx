@@ -23,5 +23,8 @@ function App() {
         </div>
     );
 }
+// prop here that keeps track of the track you're on (since u have routes) and pass it to navbar on whether or not to show it
+// u can have conditional inside app (if path == home, navbar show false)
+// react component for hiding things 
 
 export default App;

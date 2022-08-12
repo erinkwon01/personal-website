@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Description (props) {
+function ResumeDescription (props) {
 
     return (
         <div>
@@ -9,7 +9,12 @@ function Description (props) {
                     <div className="title-col">{value.title}</div>
                     <div className="content-col">
                         <ul>
-                            {value.content.map(info => {return (<li>{info}</li>)})}
+                            <li className="role">
+                                <b>{value.role}</b>
+                                <ul>
+                                    {value.content.map(info => {return (<li>{info}</li>)})}
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -18,4 +23,4 @@ function Description (props) {
     );
 };
 
-export default Description;
+export default ResumeDescription;

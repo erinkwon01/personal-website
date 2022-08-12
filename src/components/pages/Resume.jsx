@@ -1,12 +1,13 @@
 import React from "react";
-import Description from "../Description.jsx";
+import ResumeDescription from "../ResumeDescription.jsx";
 import descriptionContent from "../descriptionContent.js";
-import NavBar from "../NavBar.jsx";
 
 function Resume() {
 
     return (
-        <Description content={descriptionContent["resume-content"]}></Description>
+        <div id="resume">
+            <ResumeDescription content={descriptionContent["resume-content"]}></ResumeDescription>
+        </div>
     );
 }
 

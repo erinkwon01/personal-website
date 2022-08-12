@@ -4,11 +4,9 @@ import React from "react";
 
 function NavBarButton(props){
     return(
-        <mark>
-            <button className="navbar-btn"> {/* assigns CSS and type of button (contained) */}
-                {props.buttonName}
-            </button>
-        </mark>
+        <button className="navbar-btn"> {/* assigns CSS and type of button (contained) */}
+            <mark>{props.buttonName}</mark>
+        </button>
     );
 };
 
