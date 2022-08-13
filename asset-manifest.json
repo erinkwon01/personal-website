@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/personal-website/static/js/main.ce39f254.js",
+    "main.js": "/personal-website/static/js/main.78d1180f.js",
     "static/media/erinProfilePicture.jpg": "/personal-website/static/media/erinProfilePicture.968a4916de0447b06272.jpg",
     "index.html": "/personal-website/index.html",
-    "main.ce39f254.js.map": "/personal-website/static/js/main.ce39f254.js.map"
+    "main.78d1180f.js.map": "/personal-website/static/js/main.78d1180f.js.map"
   },
   "entrypoints": [
-    "static/js/main.ce39f254.js"
+    "static/js/main.78d1180f.js"
   ]
 }
