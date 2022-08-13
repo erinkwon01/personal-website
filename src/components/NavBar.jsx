@@ -11,7 +11,7 @@ import NavBarButton from "./NavBarButton.jsx";
 function NavBar () {
     return (
         <div id="nav-bar"> {/* assigns CSS to navbar section */}
-            <Link to="/"><NavBarButton buttonName="home" className="highlight"/></Link>
+            <Link to="/personal-website/"><NavBarButton buttonName="home" className="highlight"/></Link>
             <Link to="/about-me"><NavBarButton buttonName="about me" className="highlight"/></Link>
             <Link to="/resume"><NavBarButton buttonName="resume" className="highlight"/></Link>
             <Link to="/projects"><NavBarButton buttonName="projects" className="highlight"/></Link>
