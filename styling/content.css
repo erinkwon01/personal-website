@@ -34,6 +34,11 @@ a {
     margin-right: 50px;
 }
 
+.border-highlight{
+    border: 4px dashed rgb(186, 193, 255);  
+    padding:0.03em 0.25em;
+  }
+
 /* ID SELECTORS */
 
 #resume{
