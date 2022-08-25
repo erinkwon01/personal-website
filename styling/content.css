@@ -33,3 +33,12 @@ a {
     font-size: 23px;
     margin-right: 50px;
 }
+
+/* ID SELECTORS */
+
+#resume{
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
