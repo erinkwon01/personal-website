@@ -1,12 +1,14 @@
 import React from "react";
-import ResumeDescription from "../ResumeDescription.jsx";
-import descriptionContent from "../descriptionContent.js";
+import erinResume from "../erinResume.pdf";
+// import ResumeDescription from "../ResumeDescription.jsx";
+// import descriptionContent from "../descriptionContent.js";
 
 function Resume() {
 
     return (
         <div id="resume">
-            <ResumeDescription content={descriptionContent["resume-content"]}></ResumeDescription>
+            <embed src={erinResume} width="900px" height="970px"/>
+            {/* <ResumeDescription content={descriptionContent["resume-content"]}></ResumeDescription> */}
         </div>
     );
 }
