@@ -37,7 +37,11 @@ a {
 .border-highlight{
     border: 4px dashed #CE1212;  
     padding:0.03em 0.25em;
-  }
+}
+
+.solid-highlight{
+    background-color: #ce272766;
+}
 
 /* ID SELECTORS */
 
