@@ -38,8 +38,6 @@ a {
 
 #resume{
     display: flex;
-    width: 900px;
-    height: 970px;
     margin-left: auto;
     margin-right: auto;
 }
