@@ -7,9 +7,9 @@ const descriptionContent = {
             title: "Basic Info",
             content: [
                 <span class="border-highlight">Erin Kwon</span>, 
-                "Rising Third-Year @ UCLA", 
+                "Third-Year @ UCLA", 
                 "Korean-American", 
-                "ENFJ-A (most notably, 93% J)", 
+                "ESFJ-A", 
                 "Determined, Goal-driven, Creative, Enthusiastic"
             ]
         },
@@ -28,77 +28,42 @@ const descriptionContent = {
             title: "Goals",
             content: [
                 "Develop wonderful websites for users to interact with and get inspired!",
+                "Strengthen my front-end development skills, and work on building more back-end development skills",
                 <span class="solid-highlight">Help amplify websites and platforms of projects that support underrepresented communities</span>,
                 "Learn how to further develop my SWE skills under incredibly talented mentors"
-            ]
-        }
-    ],
-    "resume-content": 
-    [
-        {
-            title: "Education",
-            role: "University of California, Los Angeles",
-            content: [
-                "Bachelors of Science, Computational and Systems Biology",
-                "Expected Graduation June 2024",
-                "Relevant Coursework: Intro to Algorithms and Data Structures; Algorithms and Complexity; Discrete Mathematics; Linear Algebra and Applications; Essential Calculus for Mathematical Biologists"
-            ]
-        },
-        {
-            title: "Skills",
-            role: "HTML (4), CSS (4), React (3), JavaScript (3), C++ (4), Python (3), Git (3), Korean (5)", 
-            content: [
-                "Front-End Development (3), Object-Oriented Programming (4)", 
-                "Adaptability (5), Communication (4), People Management (4), Teaching (4), Organization (5), Time Management (5)"
-            ]
-        },
-        {
-            title: "Korean American Student Association (KASA)",
-            role: "Internal Vice President (September 2020 – Present): ",
-            content: [
-                <div><span class="border-highlight">Coordinated and structured weekly exec meetings</span> and one-on-ones with staff members to check in on progress and resolve blockers; <span class="border-highlight">improved efficiency in workflow</span> by prioritizing committees’ concerns with executive board and <span class="border-highlight">distributing resolutions and meeting notes</span> to staff.</div>,
-                <div>Oversaw and <span class="border-highlight">restructured the intern program</span> featuring 10+ interns to include personal projects and assigned mentors for interns. Reviewed over <span class="border-highlight">30+ intern applications</span> and <span class="border-highlight">onboarded interns</span> to specific departments.</div>,
-                <div>Created and led a LinkedIn group focused on <span class="border-highlight">strengthening the professional pillars</span> of KASA members, enabling <span class="border-highlight">200+ members</span> to network with alumni and share career-related resources.</div>,
-                // "Big/Mentor:",
-                // "Planned and hosted 4+ cultural and networking events for mentees per quarter.",
-                // "Video-edited a 14-minute recap video, showcasing highlights and every group event from the year."
-            ]
-        },
-        {
-            title: "Life Sciences Student Association (LSSA)",
-            role: "Equity, Diversity, and Inclusion (EDI) Committee Coordinator (November 2020 – Present):",
-            content: [
-                <div>Creating a <span class="border-highlight">more inclusive environment for 10,000+ life science students</span> of all financial and cultural backgrounds.</div>,
-                "Coordinated three panelist events with speakers from underrepresented backgrounds to share their unique experiences."
-            ]
-        },
-        {
-            title: "Girls Who Code (GWC) Summer Immersion Program",
-            role: "Student (June 2019 – August 2019)",
-            content: [
-                "Practiced Python, HTML, JavaScript, CSS, C using community-based programming under the mentorship of women at Blizzard.",
-                <div>Programmed a <span class="border-highlight">user-friendly travel website</span> using HTML, JavaScript, and CSS [<a href="https://erinkwon01.github.io/Trailblazers/" target="_blank" rel="noopener noreferrer">Link to Website</a>]</div> 
-            ]
-        },
-        {
-            title: "Work Experience",
-            role: "Private Tutor (September 2019 – Present):",
-            content: [
-                "Have tutored Algebra 1 Honors, Geometry Honors, Algebra 2 Trigonometry Honors, English, Chemistry CP, Physics CP",
-                <div>Developed <span class="border-highlight">interpersonal skills</span> while explaining concepts such as quadratic equations, congruency in triangles, grammar, reading comprehension, kinematics, and forces</div>,
-                <div>Improved <span class="border-highlight">time-management skills</span> while finding the balance between school and work"</div>
             ]
         }
     ],
     "projects-content":
     [
         {
+            title: <span class="border-highlight">"Plan It"</span>,
+            content: [
+                <div>Built a <span class="solid-highlight">full-stack React web application</span> called “Plan It” using API calls to <b>Firebase</b> backend that recommends local activities to users and helps them plan out their stay in the greater Los Angeles area.</div>,
+                <div>Developed and styled an <b>interactive calendar component</b> using <span class="solid-highlight">React, CSS, and libraries like react-grid-layout,</span> allowing users to present their scheduled events on a visually-pleasing calendar.</div>,
+                <div>Implemented event handlers and states to pull updated scheduled events as an array of <b>JSON objects</b> from user database on <b>Firebase</b>, populating the calendar with styled event widgets on correct coordinates based on time and date.</div>,
+                <div>Parsed through scheduled event data to access details like event name, start time, and event type to display information and corresponding style, based on the <span class="solid-highlight">Figma prototype,</span> on the calendar event widget.</div>,
+                <a href="https://planitcl.netlify.app/" target="_blank" rel="noopener noreferrer">Link to App</a>,
+                <a href="https://github.com/snlaurax/planit" target="_blank" rel="noopener noreferrer">Link to Github</a>,
+            ],
+        },
+        {
+            title: <span class="border-highlight">"Friends of the Children" Resource Bank</span>,
+            content: [
+                <div>Collaborating with nonprofit “Friends of the Children” to develop a <span class="solid-highlight">full-stack React web application</span> to serve as a <b>centralized resource bank</b> for caregivers with modules, a calendar, and a messaging system.</div>,
+                <div>Developing the module system by pulling data from <b>Firebase,</b> enabling administrators to add or edit nested modules with text/images/links/PDFs, and allow mentors and caregivers to view and access resources in each module.</div>,
+                <div>Using <b>Git</b> and <b>Figma</b> to collaborate with 6 developers, 3 designers, and 2 project leads in an <b>agile biweekly sprint</b> environment.</div>,
+                <a href="https://github.com/lablueprint/friends-of-the-children" target="_blank" rel="noopener noreferrer">Link to Github</a>,
+            ],
+        },
+        {
             title: <span class="border-highlight">Personal Website (this site!)</span>,
             content: [
-                <div>Designing and implementing a <span class="solid-highlight">“notebook-style”</span> personal website featuring unique pages and navigation bar using <span class="solid-highlight">React components, HTML, CSS flexbox and grid.</span></div>,
-                <div>Maintained the main and developing branch using <span class="solid-highlight">Git</span> and deployed onto <span class="solid-highlight">GitHub</span>.</div>,
+                <div>Designing and implementing a <span class="solid-highlight">“notebook-style” personal website</span> featuring unique pages and navigation bar using <b>React components, HTML, CSS flexbox and grid.</b></div>,
+                <div>Maintained the main and developing branch using <b>Git</b> and deployed onto <b>GitHub</b>.</div>,
+                <a href="https://github.com/erinkwon01/personal-website/tree/master" target="_blank" rel="noopener noreferrer">Link to Github</a>,
                 "Blueprinted general layout of web page; currently in the process of adding SVG images, hover animations, and additional pages."
-            ]
+            ],
         },
         {
             title: <span class="border-highlight">TunnelMan Video Game</span>,
@@ -107,22 +72,22 @@ const descriptionContent = {
                 "Structured codebase using object-oriented programming for easy development and used 2D vectors, pointers, inheritance, polymorphism, and overloading to ensure a tractable time complexity.",
                 "Tested functionality via manual play testing.",
                 <a href="https://github.com/erinkwon01/tunnelman-video-game" target="_blank" rel="noopener noreferrer">Link to Github</a>
-            ]
+            ],
         },
         {
             title: <span class="border-highlight">“Online Dating” Database Manager</span>,
             content: [
-                <div>Created and populated a <span class="solid-highlight">database of user information and matches</span> via doubly-linked lists <span class="solid-highlight">in C++</span>. Users can add a match, check if a match already exists, edit personal information, remove a match, and look up a match.</div>,
+                <div>Created and populated a <span class="solid-highlight">database of user information and matches</span> via doubly-linked lists <b>in C++</b>. Users can add a match, check if a match already exists, edit personal information, remove a match, and look up a match.</div>,
                 "Structured manager using object-oriented programming to allow for dynamic memory allocation and prevent memory leaks.",
                 <a href="https://github.com/erinkwon01/online-dating-database-manager" target="_blank" rel="noopener noreferrer">Link to Github</a>
-            ]
+            ],
         },
         {
             title: <span class="border-highlight">Witches Game</span>,
             content: [
                 <div>Implemented a <span class="solid-highlight">game in C++</span> using object-oriented programming and 2D arrays, where the user controls a character on a board of witches and navigates through rounds of enemies.</div>,
                 <a href="https://github.com/erinkwon01/witches-game" target="_blank" rel="noopener noreferrer">Link to Github</a>
-            ]
+            ],
         }
     ],
     "contact-content":
@@ -131,7 +96,7 @@ const descriptionContent = {
             title: "Contact Info",
             role: "Feel free to send me a message!",
             content: [
-                <div><span class="border-highlight">(Preferred) E-mail: <a href="mailto:erinkwon01@gmail.com">erinkwon01@gmail.com</a></span></div>,
+                <div><span class="border-highlight">(Preferred) E-mail: <a href="mailto:erinkwon01@gmail.com">erinkwon01@g.ucla.edu</a></span></div>,
                 "Phone Number: (949) 742 - 2800",
                 <div>LinkedIn: <a href="https://www.linkedin.com/in/erinkwon01/" target="_blank" rel="noopener noreferrer">Erin's LinkedIn</a></div>
             ]
