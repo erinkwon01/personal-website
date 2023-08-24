@@ -1,8 +1,8 @@
 // entirety of aboutmy page content; all content is compiled here
 
 import React from "react";
-import Description from "../components/Description.jsx";
-import descriptionContent from "../components/descriptionContent.js";
+import Description from "../Description.jsx";
+import descriptionContent from "../descriptionContent.js";
 
 function AboutMe() {
 
