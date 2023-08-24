@@ -1,6 +1,6 @@
 import React from "react";
-import Description from "../Description.jsx";
-import descriptionContent from "../descriptionContent.js";
+import Description from "../components/Description.jsx";
+import descriptionContent from "../components/descriptionContent.js";
 
 function Projects() {
 

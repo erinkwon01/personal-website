@@ -1,6 +1,6 @@
 import React from "react";
-import ResumeDescription from "../ResumeDescription.jsx";
-import descriptionContent from "../descriptionContent.js";
+import ResumeDescription from "../components/ResumeDescription.jsx";
+import descriptionContent from "../components/descriptionContent.js";
 
 // TODO: technically, Contact doesn't follow the same framework so change this
 
